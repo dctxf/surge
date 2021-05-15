@@ -1,9 +1,9 @@
 {
   "id": "dctxf.app.sub",
-  "name": "evilbutcher 应用订阅",
+  "name": "dctxf 应用订阅",
   "author": "@dctxf",
-  "icon": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/picture/13th.png",
-  "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master",
+  "icon": "https://raw.githubusercontent.com/dctxf/surge/main/logo.png",
+  "repo": "https://github.com/dctxf/surge",
   "apps": [
     {
       "id": "weibotalk",
