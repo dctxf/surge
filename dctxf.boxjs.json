@@ -654,8 +654,14 @@
           "type": "checkboxes",
           "desc": "选择需要通知的分组",
           "items": [
-            { "key": "Special", "label": "特别关注" },
-            { "key": "Spider", "label": "指定用户" }
+            {
+              "key": "Special",
+              "label": "特别关注"
+            },
+            {
+              "key": "Spider",
+              "label": "指定用户"
+            }
           ]
         },
         {
@@ -685,10 +691,22 @@
           "type": "radios",
           "desc": "选择点击跳转的客户端，如需加入想要的客户端，请提供该客户端打开指定微博的 URL Scheme，反馈至 @zZPiglet_bot，或提交 issue，或进行 PR。",
           "items": [
-            { "key": "Safari", "label": "Safari" },
-            { "key": "Sinaweibo", "label": "微博" },
-            { "key": "Weibointernational", "label": "微博国际版" },
-            { "key": "VVebo", "label": "VVebo" }
+            {
+              "key": "Safari",
+              "label": "Safari"
+            },
+            {
+              "key": "Sinaweibo",
+              "label": "微博"
+            },
+            {
+              "key": "Weibointernational",
+              "label": "微博国际版"
+            },
+            {
+              "key": "VVebo",
+              "label": "VVebo"
+            }
           ]
         }
       ],
