@@ -716,15 +716,6 @@
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/weibo.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/weibo.png"]
     },
     {
-      "id": "smzdm",
-      "name": "什么值得买",
-      "keys": ["chavy_cookie_smzdm"],
-      "author": "@wangfei021325, @chavyleung",
-      "repo": "https://github.com/chavyleung/scripts/tree/master/smzdm",
-      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/smzdm.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/smzdm.png"]
-    },
-    {
       "id": "多合一签到",
       "name": "京东",
       "keys": ["CookieJD", "CookieJD2", "CookiesJD"],
