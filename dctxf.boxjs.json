@@ -6,55 +6,6 @@
   "repo": "https://github.com/dctxf/surge",
   "apps": [
     {
-      "id": "weibotalk",
-      "name": "微博超话单账号",
-      "descs_html": ["点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/weibo/weibotalk.js\">脚本地址</a>】", "Cookie获取指南", "<iframe type=\"text/html\" src=\"https://www.youtube.com/embed/SKR0stikm-8?autoplay=1\" frameborder=\"0\"></iframe>", "Cookie获取分为三步，请仔细查看视频中弹出的<font class=\"error--text\">三个通知</font>。如果下面应用设置第四个，检查签到开关<font class=\"error--text\">打开</font>时，第三个Cookie必须获取；关闭时获取前两个即可运行。", "<font class=\"error--text\">注意！</font>如果超话数量不足20个无法触发视频流程中第三个重写，请关闭检查签到状态开关运行即可。"],
-      "keys": ["evil_tokenurl", "evil_tokenheaders", "evil_tokencheckinurl", "evil_tokencheckinheaders", "evil_tokensinceurl", "evil_tokensinceheaders"],
-      "settings": [
-        {
-          "id": "wb_delete_cookie",
-          "name": "清空Cookie",
-          "val": false,
-          "type": "boolean",
-          "desc": "打开则会清空Cookie，清除完毕后关闭"
-        },
-        {
-          "id": "wb_msg_max_num",
-          "name": "每个通知显示超话数",
-          "val": 30,
-          "type": "text",
-          "desc": "每页最显示多少个超话"
-        },
-        {
-          "id": "wb_request_time",
-          "name": "签到间隔 (毫秒)",
-          "val": 1000,
-          "type": "text",
-          "desc": "每个超话签到的间隔（超话大于50个的，建议填1000以上）"
-        },
-        {
-          "id": "wb_check_first",
-          "name": "检查签到状态",
-          "val": false,
-          "type": "boolean",
-          "desc": "打开则先检查签到状态，再签到（超话数量不足20个请关闭）"
-        }
-      ],
-      "author": "@toulanboy, @evilbutcher",
-      "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/weibo",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png", "https://raw.githubusercontent.com/Orz-3/task/master/weibo.png"],
-      "scripts": [
-        {
-          "name": "执行微博超话签到",
-          "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/weibo/weibotalk.js"
-        },
-        {
-          "name": "一键清除Cookie",
-          "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/weibo/deletecookie.js"
-        }
-      ]
-    },
-    {
       "id": "hot",
       "name": "热门监控",
       "descs_html": ["点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/hotsearch/hot.js\">脚本地址</a>】", "只有关闭<font class=\"error--text\">关键词匹配</font>才会通知最新内容，否则没匹配关键词不会通知。 ", "<font class=\"error--text\">Quantumult X</font>用户：B站、豆瓣榜单独立推送时可显示封面；关闭附带跳转链接点击通知也可跳转。"],
